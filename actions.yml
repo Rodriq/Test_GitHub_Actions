@@ -1,0 +1,6 @@
+name: 'Issue Thanker'
+description: 'Send a simple acknowledgement for new issues been created'
+author: 'Fongang Rodrique'
+branding:
+  icon: 'gift'
+  color: 'green'
