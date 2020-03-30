@@ -1,0 +1,12 @@
+name: CI
+
+on:
+  issues:
+    types: [opened]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Thank contributor
+      run: echo Thank you $GITHUB_ACTOR for Opening this issue!
